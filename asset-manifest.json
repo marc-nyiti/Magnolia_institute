@@ -1,7 +1,7 @@
 {
   "main.css": "/Magnolia_institute/static/css/main.aea57417.chunk.css",
-  "main.js": "/Magnolia_institute/static/js/main.d0b5abc6.chunk.js",
-  "main.js.map": "/Magnolia_institute/static/js/main.d0b5abc6.chunk.js.map",
+  "main.js": "/Magnolia_institute/static/js/main.a4598f4f.chunk.js",
+  "main.js.map": "/Magnolia_institute/static/js/main.a4598f4f.chunk.js.map",
   "static/css/1.053dc685.chunk.css": "/Magnolia_institute/static/css/1.053dc685.chunk.css",
   "static/js/1.62dfdb4a.chunk.js": "/Magnolia_institute/static/js/1.62dfdb4a.chunk.js",
   "static/js/1.62dfdb4a.chunk.js.map": "/Magnolia_institute/static/js/1.62dfdb4a.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/css/main.aea57417.chunk.css.map": "/Magnolia_institute/static/css/main.aea57417.chunk.css.map",
   "static/css/1.053dc685.chunk.css.map": "/Magnolia_institute/static/css/1.053dc685.chunk.css.map",
   "index.html": "/Magnolia_institute/index.html",
-  "precache-manifest.5f4f2017806be5be5a2123584f1044b6.js": "/Magnolia_institute/precache-manifest.5f4f2017806be5be5a2123584f1044b6.js",
+  "precache-manifest.4dc6a95860197963f91df505320345db.js": "/Magnolia_institute/precache-manifest.4dc6a95860197963f91df505320345db.js",
   "service-worker.js": "/Magnolia_institute/service-worker.js"
 }
