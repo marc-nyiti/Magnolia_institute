@@ -1,4 +1,7 @@
 # The Magnolia Institute
+Live demo on the Ethereum Goerli testnet. An Ethereum web3 browser is required to view the Dapp, I  recommend using MetaMask.
+https://marc-nyiti.github.io/Magnolia_institute
+
 
 The Magnolia Institute is a decentralized platform that utilizes blockchain technology for real-time disease tracking.
 
