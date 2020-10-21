@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Magnolia_institute/precache-manifest.e2b2896c44345ad7978460c1f66ee465.js"
+  "/Magnolia_institute/precache-manifest.55473c3cede78b6aabfc8a3c3c781d1f.js"
 );
 
 workbox.clientsClaim();
