@@ -9,8 +9,8 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     goerli: {
-     host: "127.0.0.1",
-     port: 8545,
+     // host: "127.0.0.1",
+     // port: 8545,
      network_id: '5', // eslint-disable-line camelcase
      gas: 4465030,
      gasPrice: 10000000000,
