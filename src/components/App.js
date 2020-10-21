@@ -65,7 +65,7 @@ class App extends Component {
     })
     this.setState({ loading: false})
   } else {
-    window.alert('Magnolia contract not deployed to detected network. Please select the Ropsten testnet')
+    window.alert('Magnolia contract not deployed to detected network. Please select the Goerli testnet')
   }
 }
 
