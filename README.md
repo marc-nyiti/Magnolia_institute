@@ -4,12 +4,12 @@ The Magnolia Institute is a decentralized platform that utilizes blockchain tech
 
 ##The development toolkit
 
-*Truffle : framework
-*Geth : Ethereum node
-*Slither : Smart contract security auditing
-*React : Frontend
+ - Truffle framework
+ - Geth Ethereum node
+ - Slither for Smart contract security auditing
+ - React Frontend
 
 ## How does it work?
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FData-sharing-on-IPFS-by-owner_fig1_335652136&psig=AOvVaw1Wes-a94-3AdpGJpg3bCMl&ust=1603393609260000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCglu-wxuwCFQAAAAAdAAAAABAW)
+![N|Solid](https://www.researchgate.net/profile/Nadeem_Javaid/publication/335652136/figure/fig1/AS:811949805821953@1570595327463/Data-sharing-on-IPFS-by-owner.png)
 
-When you uploaded an image a request is sent to the Magnolia smart contract which lives on the Ethereum testnet. The smart contract hashes the image to the ipfs(InterPlanetary File System) and then stores the data on chain. 
+When you uploaded an image a request is sent to the Magnolia smart contract which lives on the Ethereum testnet. The smart contract hashes the image to the ipfs(InterPlanetary File System) and then stores the data on chain.
