@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8529a8822d7d37a1ccd6",
+    "revision": "4a135033fff0c1be489b",
     "url": "/Magnolia_institute/static/css/main.aea57417.chunk.css"
   },
   {
-    "revision": "8529a8822d7d37a1ccd6",
-    "url": "/Magnolia_institute/static/js/main.8529a882.chunk.js"
+    "revision": "4a135033fff0c1be489b",
+    "url": "/Magnolia_institute/static/js/main.4a135033.chunk.js"
   },
   {
     "revision": "62dfdb4a41aa31ad4878",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Magnolia_institute/static/media/topBanner.75bbae50.png"
   },
   {
-    "revision": "35c2ef361ca39a8add188dfd9b16a691",
+    "revision": "719ae6b63ad29ca804b12b4e3e359b21",
     "url": "/Magnolia_institute/index.html"
   }
 ];
