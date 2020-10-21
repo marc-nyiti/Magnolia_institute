@@ -6,6 +6,7 @@ The Magnolia Institute is a decentralized platform that utilizes blockchain tech
 
  - Truffle framework
  - Geth Ethereum node
+ - Chai javascript testing framework
  - Slither for Smart contract security auditing
  - React Frontend
 
