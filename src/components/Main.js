@@ -109,7 +109,7 @@ class Main extends Component {
                            this.props.tipImageOwner(event.target.name, tipAmount)
                          }}
                        >
-                         DONATE 0.1 ETH to the researcher
+                         DONATE 0.01 ETH to the researcher
                        </button>
 
                      </li>
