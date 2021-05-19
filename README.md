@@ -1,7 +1,7 @@
 # The Magnolia Institute
 The Magnolia Institute is a decentralized platform that utilizes blockchain technology for real-time disease tracking.
 
-Live demo on the Ethereum Goerli testnet.   https://marc-nyiti.github.io/Magnolia_institute
+Proof of concept on the Ethereum Goerli testnet.   https://marc-nyiti.github.io/Magnolia_institute
 
 
 ## The development tool kit
