@@ -13,6 +13,7 @@ contract Magnolia {
     uint id;
     string hash;
     string description;
+    int coordinates;
     uint tipAmount;
     address payable author;
    }
@@ -21,6 +22,7 @@ contract Magnolia {
      uint id,
      string hash,
      string description,
+     int coordinates,
      uint tipAmount,
      address payable author
    );
@@ -29,15 +31,19 @@ contract Magnolia {
      uint id,
      string hash,
      string description,
+     int coordinates,
      uint tipAmount,
      address payable author
      );
 
   //Create images
-  function uploadImage(string memory _imgHash, string memory _description) public {
+  function uploadImage(string memory _imgHash, string memory _description, memory _coordinates) public {
 
     //make sure description is not empty
     require(bytes(_description).length > 0);
+    
+    //make sure coordinates are not empry
+    require(bytes(_coordinates).length > 0);
 
     //make sure image hash exists
     require(bytes(_imgHash).length > 0);
@@ -48,10 +54,10 @@ contract Magnolia {
     imageCount++;
 
     //Add image to contract
-    images[imageCount] = Image(imageCount,_imgHash, _description, 0, msg.sender);
+    images[imageCount] = Image(imageCount,_imgHash, _description, _coordinates, 0, msg.sender);
 
     //Trigger event
-    emit ImageCreated(imageCount, _imgHash, _description, 0, msg.sender);
+    emit ImageCreated(imageCount, _imgHash, _description, _coordinates, 0, msg.sender);
 
   }
   //Tip images
@@ -76,7 +82,7 @@ contract Magnolia {
     images[_id] = _image;
 
     //Trigger tip event
-    emit ImageTipped(_id, _image.hash, _image.description, _image.tipAmount, _author);
+    emit ImageTipped(_id, _image.hash, _image.description, _image.coordinates, _image.tipAmount, _author);
 
   }
 }
